@@ -12,12 +12,14 @@ namespace SpaceExplore.Coursework
 
         private Rigidbody2D body;
         private Collider2D collision;
+        private Animator animator;
         private Vector2 moveInput;
 
         private void Awake()
         {
             body = GetComponent<Rigidbody2D>();
             collision = GetComponent<Collider2D>();
+            animator = GetComponent<Animator>();
             body.gravityScale = 3f;
             body.freezeRotation = true;
         }
@@ -25,17 +27,20 @@ namespace SpaceExplore.Coursework
         private void Update()
         {
             Keyboard keyboard = Keyboard.current;
-            if (keyboard == null)
+            moveInput = keyboard == null
+                ? Vector2.zero
+                : new Vector2(
+                    (keyboard.dKey.isPressed ? 1f : 0f) - (keyboard.aKey.isPressed ? 1f : 0f),
+                    0f);
+
+            Mouse mouse = Mouse.current;
+            if (animator != null && mouse != null)
             {
-                moveInput = Vector2.zero;
-                return;
+                if (mouse.leftButton.wasPressedThisFrame) animator.SetTrigger("Attack1");
+                if (mouse.rightButton.wasPressedThisFrame) animator.SetTrigger("Block");
             }
 
-            moveInput = new Vector2(
-                (keyboard.dKey.isPressed ? 1f : 0f) - (keyboard.aKey.isPressed ? 1f : 0f),
-                0f);
-
-            if (keyboard.spaceKey.wasPressedThisFrame && IsGrounded())
+            if (keyboard != null && keyboard.spaceKey.wasPressedThisFrame && IsGrounded())
             {
                 body.AddForce(Vector2.up * jumpImpulse, ForceMode2D.Impulse);
             }
