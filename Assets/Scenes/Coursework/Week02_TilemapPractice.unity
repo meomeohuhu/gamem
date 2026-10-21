@@ -119,7 +119,90 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!213 &9354536
+--- !u!114 &18052572
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
+  m_Sprite: {fileID: 271301265}
+  m_Color: {r: 0.99313563, g: 0.53784895, b: 0.59750736, a: 1}
+  m_Transform:
+    e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  m_InstancedGameObject: {fileID: 0}
+  m_Flags: 3
+  m_ColliderType: 1
+--- !u!4 &116525061 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5449692268796619900, guid: 7e954592945cd8540be8da9fedba0559, type: 3}
+  m_PrefabInstance: {fileID: 7527520741013298483}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &143916493 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2017216015712740985, guid: 062d404a3b2bc0246b99810cadb56023, type: 3}
+  m_PrefabInstance: {fileID: 6333913636256476620}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &164850811 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6450062472844893616, guid: 54f8826717f27e34aa40c5209764669a, type: 3}
+  m_PrefabInstance: {fileID: 6669445012915964631}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &227748581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
+  m_Sprite: {fileID: 271301265}
+  m_Color: {r: 0.78701717, g: 0.3673691, b: 0.4981262, a: 1}
+  m_Transform:
+    e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  m_InstancedGameObject: {fileID: 0}
+  m_Flags: 3
+  m_ColliderType: 1
+--- !u!213 &271301265
 Sprite:
   serializedVersion: 2
   m_ObjectHideFlags: 8
@@ -236,7 +319,7 @@ Sprite:
       height: 4
     textureRectOffset: {x: 0, y: 0}
     atlasRectOffset: {x: -1, y: -1}
-    settingsRaw: 2112
+    settingsRaw: 3136
     uvTransform: {x: 4, y: 2, z: 4, w: 2}
     downscaleMultiplier: 1
   m_AtlasRD:
@@ -317,7 +400,7 @@ Sprite:
         format: 0
         dimension: 0
       m_DataSize: 80
-      _typelessdata: 000000bf0000003f000000000000003f0000003f00000000000000bf000000bf000000000000003f000000bf000000000000000000000000000000000000000000000000000000000000000000000000
+      _typelessdata: 000000bf0000003f000000000000003f0000003f00000000000000bf000000bf000000000000003f000000bf00000000000000000000803f0000803f0000803f00000000000000000000803f00000000
     m_Bindpose: []
     m_BlendShapes:
       vertices: []
@@ -339,61 +422,12 @@ Sprite:
   m_Bones: []
   m_ScriptableObjects: []
   m_SpriteID: 
---- !u!114 &24945826
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
-  m_Sprite: {fileID: 9354536}
-  m_Color: {r: 0.7999055, g: 0.4529421, b: 0.45582905, a: 1}
-  m_Transform:
-    e00: 1
-    e01: 0
-    e02: 0
-    e03: 0
-    e10: 0
-    e11: 1
-    e12: 0
-    e13: 0
-    e20: 0
-    e21: 0
-    e22: 1
-    e23: 0
-    e30: 0
-    e31: 0
-    e32: 0
-    e33: 1
-  m_InstancedGameObject: {fileID: 0}
-  m_Flags: 3
-  m_ColliderType: 1
---- !u!4 &116525061 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5449692268796619900, guid: 7e954592945cd8540be8da9fedba0559, type: 3}
-  m_PrefabInstance: {fileID: 7527520741013298483}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &143916493 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 2017216015712740985, guid: 062d404a3b2bc0246b99810cadb56023, type: 3}
-  m_PrefabInstance: {fileID: 6333913636256476620}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &164850811 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 6450062472844893616, guid: 54f8826717f27e34aa40c5209764669a, type: 3}
-  m_PrefabInstance: {fileID: 6669445012915964631}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &323551575 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7428837816749404795, guid: 3a7f02633535c8a48bd2f7ad7a0e487e, type: 3}
   m_PrefabInstance: {fileID: 6334745031989397212}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &354311044
+--- !u!114 &491856168
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -405,8 +439,8 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
-  m_Sprite: {fileID: 9354536}
-  m_Color: {r: 0.724249, g: 0.37214804, b: 0.3872504, a: 1}
+  m_Sprite: {fileID: 271301265}
+  m_Color: {r: 0.7066618, g: 0.29327953, b: 0.32530785, a: 1}
   m_Transform:
     e00: 1
     e01: 0
@@ -427,7 +461,7 @@ MonoBehaviour:
   m_InstancedGameObject: {fileID: 0}
   m_Flags: 3
   m_ColliderType: 1
---- !u!114 &414541649
+--- !u!114 &721793872
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -439,8 +473,8 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
-  m_Sprite: {fileID: 9354536}
-  m_Color: {r: 0.9952853, g: 0.5830711, b: 0.7195075, a: 1}
+  m_Sprite: {fileID: 271301265}
+  m_Color: {r: 0.9875005, g: 0.54578376, b: 0.60852385, a: 1}
   m_Transform:
     e00: 1
     e01: 0
@@ -461,7 +495,7 @@ MonoBehaviour:
   m_InstancedGameObject: {fileID: 0}
   m_Flags: 3
   m_ColliderType: 1
---- !u!114 &568632657
+--- !u!114 &722530913
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -473,8 +507,8 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
-  m_Sprite: {fileID: 9354536}
-  m_Color: {r: 0.9876844, g: 0.56431484, b: 0.6146422, a: 1}
+  m_Sprite: {fileID: 271301265}
+  m_Color: {r: 0.7437472, g: 0.39791462, b: 0.4259384, a: 1}
   m_Transform:
     e00: 1
     e01: 0
@@ -500,7 +534,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4460246312280617831, guid: 19eb7de4adacb8e4886e24264c9f8c6e, type: 3}
   m_PrefabInstance: {fileID: 729916846094064635}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &918054812
+--- !u!114 &1191082618
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -512,8 +546,8 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
-  m_Sprite: {fileID: 9354536}
-  m_Color: {r: 0.8895587, g: 0.5884354, b: 0.67708784, a: 1}
+  m_Sprite: {fileID: 271301265}
+  m_Color: {r: 0.80537474, g: 0.33287403, b: 0.42553002, a: 1}
   m_Transform:
     e00: 1
     e01: 0
@@ -534,7 +568,7 @@ MonoBehaviour:
   m_InstancedGameObject: {fileID: 0}
   m_Flags: 3
   m_ColliderType: 1
---- !u!114 &920858294
+--- !u!114 &1217800850
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -546,76 +580,8 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
-  m_Sprite: {fileID: 9354536}
-  m_Color: {r: 0.9035362, g: 0.40354168, b: 0.53872997, a: 1}
-  m_Transform:
-    e00: 1
-    e01: 0
-    e02: 0
-    e03: 0
-    e10: 0
-    e11: 1
-    e12: 0
-    e13: 0
-    e20: 0
-    e21: 0
-    e22: 1
-    e23: 0
-    e30: 0
-    e31: 0
-    e32: 0
-    e33: 1
-  m_InstancedGameObject: {fileID: 0}
-  m_Flags: 3
-  m_ColliderType: 1
---- !u!114 &1135274910
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
-  m_Sprite: {fileID: 9354536}
-  m_Color: {r: 0.77487344, g: 0.3583486, b: 0.39977893, a: 1}
-  m_Transform:
-    e00: 1
-    e01: 0
-    e02: 0
-    e03: 0
-    e10: 0
-    e11: 1
-    e12: 0
-    e13: 0
-    e20: 0
-    e21: 0
-    e22: 1
-    e23: 0
-    e30: 0
-    e31: 0
-    e32: 0
-    e33: 1
-  m_InstancedGameObject: {fileID: 0}
-  m_Flags: 3
-  m_ColliderType: 1
---- !u!114 &1143769497
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
-  m_Sprite: {fileID: 9354536}
-  m_Color: {r: 0.7870849, g: 0.3182596, b: 0.39252764, a: 1}
+  m_Sprite: {fileID: 271301265}
+  m_Color: {r: 0.86656076, g: 0.5787286, b: 0.64901334, a: 1}
   m_Transform:
     e00: 1
     e01: 0
@@ -641,80 +607,12 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3712367777409170411, guid: bcfb0fdf03de3e64c9660cc184bd2154, type: 3}
   m_PrefabInstance: {fileID: 8836379351308606580}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1259805653
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
-  m_Sprite: {fileID: 9354536}
-  m_Color: {r: 0.7714582, g: 0.34300977, b: 0.48079666, a: 1}
-  m_Transform:
-    e00: 1
-    e01: 0
-    e02: 0
-    e03: 0
-    e10: 0
-    e11: 1
-    e12: 0
-    e13: 0
-    e20: 0
-    e21: 0
-    e22: 1
-    e23: 0
-    e30: 0
-    e31: 0
-    e32: 0
-    e33: 1
-  m_InstancedGameObject: {fileID: 0}
-  m_Flags: 3
-  m_ColliderType: 1
---- !u!114 &1267609243
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
-  m_Sprite: {fileID: 9354536}
-  m_Color: {r: 0.95063096, g: 0.43992397, b: 0.5903093, a: 1}
-  m_Transform:
-    e00: 1
-    e01: 0
-    e02: 0
-    e03: 0
-    e10: 0
-    e11: 1
-    e12: 0
-    e13: 0
-    e20: 0
-    e21: 0
-    e22: 1
-    e23: 0
-    e30: 0
-    e31: 0
-    e32: 0
-    e33: 1
-  m_InstancedGameObject: {fileID: 0}
-  m_Flags: 3
-  m_ColliderType: 1
 --- !u!4 &1272547422 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 420911518444825592, guid: f887ba435b9f20449b0e303d2ff035b4, type: 3}
   m_PrefabInstance: {fileID: 5011845757389122948}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1338299423
+--- !u!114 &1522773281
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -726,8 +624,8 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
-  m_Sprite: {fileID: 9354536}
-  m_Color: {r: 0.7420742, g: 0.49387363, b: 0.54034215, a: 1}
+  m_Sprite: {fileID: 271301265}
+  m_Color: {r: 0.7634064, g: 0.4109322, b: 0.4135891, a: 1}
   m_Transform:
     e00: 1
     e01: 0
@@ -748,7 +646,7 @@ MonoBehaviour:
   m_InstancedGameObject: {fileID: 0}
   m_Flags: 3
   m_ColliderType: 1
---- !u!114 &1363582305
+--- !u!114 &1549404873
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -760,8 +658,8 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
-  m_Sprite: {fileID: 9354536}
-  m_Color: {r: 0.89023656, g: 0.5706373, b: 0.6608973, a: 1}
+  m_Sprite: {fileID: 271301265}
+  m_Color: {r: 0.9391824, g: 0.39840055, b: 0.54272026, a: 1}
   m_Transform:
     e00: 1
     e01: 0
@@ -782,7 +680,7 @@ MonoBehaviour:
   m_InstancedGameObject: {fileID: 0}
   m_Flags: 3
   m_ColliderType: 1
---- !u!114 &1381942652
+--- !u!114 &1689870238
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -794,8 +692,8 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
-  m_Sprite: {fileID: 9354536}
-  m_Color: {r: 0.91978085, g: 0.6028585, b: 0.6449405, a: 1}
+  m_Sprite: {fileID: 271301265}
+  m_Color: {r: 0.9027524, g: 0.39117882, b: 0.46093696, a: 1}
   m_Transform:
     e00: 1
     e01: 0
@@ -816,7 +714,7 @@ MonoBehaviour:
   m_InstancedGameObject: {fileID: 0}
   m_Flags: 3
   m_ColliderType: 1
---- !u!114 &1406348870
+--- !u!114 &1691544582
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -828,8 +726,8 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
-  m_Sprite: {fileID: 9354536}
-  m_Color: {r: 0.9296041, g: 0.6229023, b: 0.68011934, a: 1}
+  m_Sprite: {fileID: 271301265}
+  m_Color: {r: 0.74209344, g: 0.37671027, b: 0.39101002, a: 1}
   m_Transform:
     e00: 1
     e01: 0
@@ -850,7 +748,7 @@ MonoBehaviour:
   m_InstancedGameObject: {fileID: 0}
   m_Flags: 3
   m_ColliderType: 1
---- !u!114 &1626293378
+--- !u!114 &1773927201
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -862,8 +760,8 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
-  m_Sprite: {fileID: 9354536}
-  m_Color: {r: 0.96112835, g: 0.55140686, b: 0.6127251, a: 1}
+  m_Sprite: {fileID: 271301265}
+  m_Color: {r: 0.8849501, g: 0.41631362, b: 0.50339895, a: 1}
   m_Transform:
     e00: 1
     e01: 0
@@ -884,7 +782,7 @@ MonoBehaviour:
   m_InstancedGameObject: {fileID: 0}
   m_Flags: 3
   m_ColliderType: 1
---- !u!114 &1804966196
+--- !u!114 &1778119050
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -896,8 +794,8 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
-  m_Sprite: {fileID: 9354536}
-  m_Color: {r: 0.87797457, g: 0.5034931, b: 0.6002354, a: 1}
+  m_Sprite: {fileID: 271301265}
+  m_Color: {r: 0.72612876, g: 0.40129292, b: 0.40872294, a: 1}
   m_Transform:
     e00: 1
     e01: 0
@@ -918,7 +816,7 @@ MonoBehaviour:
   m_InstancedGameObject: {fileID: 0}
   m_Flags: 3
   m_ColliderType: 1
---- !u!114 &2131623065
+--- !u!114 &1879192801
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -930,8 +828,110 @@ MonoBehaviour:
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
-  m_Sprite: {fileID: 9354536}
-  m_Color: {r: 0.93684983, g: 0.4706306, b: 0.61823434, a: 1}
+  m_Sprite: {fileID: 271301265}
+  m_Color: {r: 0.82007784, g: 0.41799474, b: 0.49213082, a: 1}
+  m_Transform:
+    e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  m_InstancedGameObject: {fileID: 0}
+  m_Flags: 3
+  m_ColliderType: 1
+--- !u!114 &1948798024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
+  m_Sprite: {fileID: 271301265}
+  m_Color: {r: 0.88350046, g: 0.56957775, b: 0.65210503, a: 1}
+  m_Transform:
+    e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  m_InstancedGameObject: {fileID: 0}
+  m_Flags: 3
+  m_ColliderType: 1
+--- !u!114 &2049358516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
+  m_Sprite: {fileID: 271301265}
+  m_Color: {r: 0.8702211, g: 0.47531223, b: 0.569833, a: 1}
+  m_Transform:
+    e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  m_InstancedGameObject: {fileID: 0}
+  m_Flags: 3
+  m_ColliderType: 1
+--- !u!114 &2130041045
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.dll::UnityEngine.Tilemaps.Tile
+  m_Sprite: {fileID: 271301265}
+  m_Color: {r: 0.7297837, g: 0.32355514, b: 0.40030628, a: 1}
   m_Transform:
     e00: 1
     e01: 0
@@ -1097,7 +1097,7 @@ PrefabInstance:
     - target: {fileID: 2357782874523789363, guid: 19eb7de4adacb8e4886e24264c9f8c6e, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 8e3c3d42c5483ff46907cf40939b531b, type: 2}
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 4460246312280617831, guid: 19eb7de4adacb8e4886e24264c9f8c6e, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1140,7 +1140,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4515861010075529052, guid: 19eb7de4adacb8e4886e24264c9f8c6e, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.size
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4515861010075529052, guid: 19eb7de4adacb8e4886e24264c9f8c6e, type: 3}
       propertyPath: m_CompositePaths.m_Paths.Array.data[0].Array.data[0].x
@@ -1176,7 +1176,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4515861010075529052, guid: 19eb7de4adacb8e4886e24264c9f8c6e, type: 3}
       propertyPath: m_ColliderPaths.Array.data[0].m_ColliderPaths.Array.size
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4515861010075529052, guid: 19eb7de4adacb8e4886e24264c9f8c6e, type: 3}
       propertyPath: m_ColliderPaths.Array.data[0].m_ColliderPaths.Array.data[0].Array.size
@@ -1395,7 +1395,7 @@ PrefabInstance:
     - target: {fileID: 5421229531523873021, guid: f887ba435b9f20449b0e303d2ff035b4, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 8e3c3d42c5483ff46907cf40939b531b, type: 2}
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 6936786983159807668, guid: f887ba435b9f20449b0e303d2ff035b4, type: 3}
       propertyPath: m_Name
       value: Hazards Tilemap
@@ -1456,7 +1456,7 @@ PrefabInstance:
     - target: {fileID: 5450163547680052093, guid: 062d404a3b2bc0246b99810cadb56023, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 8e3c3d42c5483ff46907cf40939b531b, type: 2}
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 6559176895728741644, guid: 062d404a3b2bc0246b99810cadb56023, type: 3}
       propertyPath: m_Name
       value: Water Tilemap
@@ -1477,7 +1477,7 @@ PrefabInstance:
     - target: {fileID: 6679520434574022773, guid: 3a7f02633535c8a48bd2f7ad7a0e487e, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 8e3c3d42c5483ff46907cf40939b531b, type: 2}
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 7066677844308584444, guid: 3a7f02633535c8a48bd2f7ad7a0e487e, type: 3}
       propertyPath: m_Name
       value: Bouncing Tilemap
@@ -1657,7 +1657,7 @@ PrefabInstance:
     - target: {fileID: 8843283725579405270, guid: 7e954592945cd8540be8da9fedba0559, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 8e3c3d42c5483ff46907cf40939b531b, type: 2}
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1682,7 +1682,7 @@ PrefabInstance:
     - target: {fileID: 864241450488864434, guid: bcfb0fdf03de3e64c9660cc184bd2154, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
-      objectReference: {fileID: 2100000, guid: 8e3c3d42c5483ff46907cf40939b531b, type: 2}
+      objectReference: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
     - target: {fileID: 3712367777409170411, guid: bcfb0fdf03de3e64c9660cc184bd2154, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
