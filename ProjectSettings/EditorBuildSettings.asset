@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 9851c066813016d43ad6b43a8518f5eb
+  - enabled: 1
+    path: Assets/Scenes/Gameplay.unity
+    guid: 8a22c742831e8fb44b1693d4bd56f917
+  - enabled: 1
+    path: Assets/Scenes/EndGame.unity
+    guid: faf6ef88d8cbf9a4aa44b11c4b95f70a
+  - enabled: 1
+    path: Assets/Scenes/Coursework/Week01_TransformPractice.unity
+    guid: 2d6f0a8b75d24f3ea1c38d4f8b5e90a1
+  - enabled: 1
+    path: Assets/Scenes/Coursework/Week02_TilemapPractice.unity
+    guid: 3c7a1b9e86e35f4fb2d49e5f9c6fa1b2
+  - enabled: 1
+    path: Assets/Scenes/Coursework/Week03_PhysicsPractice.unity
+    guid: 4d8b2caf97f46050c3e5af6a0d70b2c3
+  - enabled: 1
+    path: Assets/Scenes/Coursework/Week07_AnimationPractice.unity
+    guid: 5e9c3db0a8057161d4f6b07b1e81c3d4
+  - enabled: 1
+    path: Assets/Scenes/Coursework/Week08_UIPractice.unity
+    guid: 6fad4ec1b9168272e5a7c18c2f92d4e5
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

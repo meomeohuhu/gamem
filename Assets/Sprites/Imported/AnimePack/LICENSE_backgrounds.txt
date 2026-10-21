@@ -1,0 +1,4 @@
+Background assets: space background pack by Kiririnochka / OpenGameArt.org.
+License: CC0 / Public Domain as stated on the source page.
+Source: https://opengameart.org/content/space-12
+The project uses modified/imported copies of background1.png and background2.png.

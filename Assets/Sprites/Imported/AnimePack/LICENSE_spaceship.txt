@@ -1,0 +1,4 @@
+Spaceship asset: Pincher by umairazfar / OpenGameArt.org.
+License: CC0 is listed among the available licenses on the source page.
+Source: https://opengameart.org/content/top-down-spaceships-detailed
+The project uses an imported copy of pincher.png.
