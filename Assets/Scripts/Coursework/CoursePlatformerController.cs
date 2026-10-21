@@ -11,13 +11,13 @@ namespace SpaceExplore.Coursework
         [SerializeField] private LayerMask groundMask = ~0;
 
         private Rigidbody2D body;
-        private CapsuleCollider2D capsule;
+        private Collider2D collision;
         private Vector2 moveInput;
 
         private void Awake()
         {
             body = GetComponent<Rigidbody2D>();
-            capsule = GetComponent<CapsuleCollider2D>();
+            collision = GetComponent<Collider2D>();
             body.gravityScale = 3f;
             body.freezeRotation = true;
         }
@@ -54,8 +54,8 @@ namespace SpaceExplore.Coursework
 
         private bool IsGrounded()
         {
-            if (capsule == null) return false;
-            Vector2 origin = (Vector2)transform.position + Vector2.down * (capsule.bounds.extents.y + 0.03f);
+            if (collision == null) return false;
+            Vector2 origin = (Vector2)transform.position + Vector2.down * (collision.bounds.extents.y + 0.03f);
             return Physics2D.Raycast(origin, Vector2.down, 0.08f, groundMask).collider != null;
         }
     }
